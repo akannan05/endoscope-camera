@@ -1,0 +1,4 @@
+source;share/endofeed/local_setup.bash
+source;share/endofeed/local_setup.dsv
+source;share/endofeed/local_setup.sh
+source;share/endofeed/local_setup.zsh

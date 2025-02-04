@@ -1,0 +1,6 @@
+source;share/endofeed/hook/cmake_prefix_path.dsv
+source;share/endofeed/hook/cmake_prefix_path.sh
+source;share/endofeed/local_setup.bash
+source;share/endofeed/local_setup.dsv
+source;share/endofeed/local_setup.sh
+source;share/endofeed/local_setup.zsh

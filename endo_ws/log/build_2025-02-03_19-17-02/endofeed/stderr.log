@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:20 (target_link_libraries):
+  Cannot specify link libraries for target "publisher_endo_cam" which is not
+  built by this project.
+
+[0m

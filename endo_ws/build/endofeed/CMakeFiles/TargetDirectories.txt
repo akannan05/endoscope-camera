@@ -1,0 +1,10 @@
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/uninstall.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/endofeed_uninstall.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/publisher_endo_cam.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/test.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/edit_cache.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/rebuild_cache.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/list_install_components.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/install.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/install/local.dir
+/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/CMakeFiles/install/strip.dir

@@ -1,0 +1,7 @@
+[01m[K/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/endofeed/src/publisher_endo_cam.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/cor/mat.hpp: No such file or directory
+    5 | #include [01;31m[K"opencv2/cor/mat.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_endo_cam.dir/build.make:76: CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_endo_cam.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

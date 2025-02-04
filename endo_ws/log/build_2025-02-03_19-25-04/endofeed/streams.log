@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed -- -j1 -l1
+[0.263s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o[0m
+[13.609s] [100%] [32m[1mLinking CXX executable publisher_endo_cam[0m
+[16.586s] [100%] Built target publisher_endo_cam
+[16.631s] Invoked command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed -- -j1 -l1
+[16.656s] Invoking command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed
+[16.673s] -- Install configuration: ""
+[16.673s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam
+[16.674s] -- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam" to ""
+[16.674s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed
+[16.674s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed/endofeed
+[16.674s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/package_run_dependencies/endofeed
+[16.676s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/parent_prefix_path/endofeed
+[16.678s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.sh
+[16.681s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.dsv
+[16.681s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.sh
+[16.682s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.dsv
+[16.683s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.bash
+[16.684s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.sh
+[16.686s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.zsh
+[16.687s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.dsv
+[16.688s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.dsv
+[16.688s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/packages/endofeed
+[16.688s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.692s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.692s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig.cmake
+[16.692s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig-version.cmake
+[16.692s] -- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.xml
+[16.712s] Invoked command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed
