@@ -25,7 +25,7 @@ From here you can build all packages using
 ```bash
 colcon build
 ```
-That concludes the general installation for this endoscope camera package! To only build certain packages run colcon build with the `--packages-list`{:.bash} option. E.g:
+That concludes the general installation for this endoscope camera package! To only build certain packages run colcon build with the `--packages-list` option. E.g:
 ```bash
 colcon build --packages-list endofeed
 ```
