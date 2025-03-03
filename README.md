@@ -32,14 +32,14 @@ To only build certain packages run colcon build with the `--packages-list` optio
 colcon build --packages-list endofeed
 ```
 
-## TODO (robotics software):
+## TODO (high priority):
 - [x] write publisher to publish endoscopic camera frames to endocam/feed topic
 - [ ] write subscriber for object detection pipeline to intake messages from endocam/feed topic, collect each image frame, and run inference using the model
 - [ ] write publisher to publish inferred camera frames to endocam/inferred_feed topic
-- [ ] (optional) write publisher for bbox coordinates to endocam/results-coords topic
 - [ ] draw rqt_graph for current ros2 setup
 
 ## TODO
+- [ ] write publisher for bbox coordinates to endocam/results-coords topic
 - [ ] expand classes for polyp detector (lesions and other medical landmarks)
 - [ ] experiment with deformable models for enhanced imaging
 - [ ] narrow band imaging script
