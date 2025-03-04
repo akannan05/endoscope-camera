@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001108] (endofeed) JobQueued: {'identifier': 'endofeed', 'dependencies': OrderedDict()}
+[0.001149] (endofeed) JobStarted: {'identifier': 'endofeed'}
+[0.057704] (endofeed) JobProgress: {'identifier': 'endofeed', 'progress': 'cmake'}
+[0.062607] (endofeed) JobProgress: {'identifier': 'endofeed', 'progress': 'build'}
+[0.062666] (endofeed) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', '--', '-j1', '-l1'], 'cwd': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'akannan05', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2015', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/akannan05/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/akannan05/.local/bin:/home/akannan05/.local/bin', 'SESSION_MANAGER': 'local/akannan05:@/tmp/.ICE-unix/1973,unix/akannan05:/tmp/.ICE-unix/1973', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f43ea78f_b1e4_42f5_b946_77c9dade620d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QGT422', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100298] (-) TimerEvent: {}
+[0.208003] (-) TimerEvent: {}
+[0.308349] (-) TimerEvent: {}
+[0.326924] (endofeed) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o\x1b[0m\n'}
+[0.408550] (-) TimerEvent: {}
+[0.509199] (-) TimerEvent: {}
+[0.611075] (-) TimerEvent: {}
+[0.711695] (-) TimerEvent: {}
+[0.812034] (-) TimerEvent: {}
+[0.914164] (-) TimerEvent: {}
+[1.014378] (-) TimerEvent: {}
+[1.114632] (-) TimerEvent: {}
+[1.215341] (-) TimerEvent: {}
+[1.319352] (-) TimerEvent: {}
+[1.422667] (-) TimerEvent: {}
+[1.523731] (-) TimerEvent: {}
+[1.642629] (-) TimerEvent: {}
+[1.742967] (-) TimerEvent: {}
+[1.849952] (-) TimerEvent: {}
+[1.963068] (-) TimerEvent: {}
+[2.065418] (-) TimerEvent: {}
+[2.170955] (-) TimerEvent: {}
+[2.286448] (-) TimerEvent: {}
+[2.390977] (-) TimerEvent: {}
+[2.495030] (-) TimerEvent: {}
+[2.609028] (-) TimerEvent: {}
+[2.709322] (-) TimerEvent: {}
+[2.814992] (-) TimerEvent: {}
+[2.928344] (-) TimerEvent: {}
+[3.043217] (-) TimerEvent: {}
+[3.158971] (-) TimerEvent: {}
+[3.264120] (-) TimerEvent: {}
+[3.369057] (-) TimerEvent: {}
+[3.472129] (-) TimerEvent: {}
+[3.574964] (-) TimerEvent: {}
+[3.678977] (-) TimerEvent: {}
+[3.781993] (-) TimerEvent: {}
+[3.885063] (-) TimerEvent: {}
+[3.989031] (-) TimerEvent: {}
+[4.091469] (-) TimerEvent: {}
+[4.205239] (-) TimerEvent: {}
+[4.308985] (-) TimerEvent: {}
+[4.421463] (-) TimerEvent: {}
+[4.536898] (-) TimerEvent: {}
+[4.641995] (-) TimerEvent: {}
+[4.744978] (-) TimerEvent: {}
+[4.847980] (-) TimerEvent: {}
+[4.961065] (-) TimerEvent: {}
+[5.043088] (endofeed) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/endofeed/src/publisher_endo_cam.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.043294] (endofeed) StderrLine: {'line': b'\x1b[01m\x1b[K/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/endofeed/src/publisher_endo_cam.cpp:44:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresized_frame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.043351] (endofeed) StderrLine: {'line': b'   44 |             cv::resize(frame, \x1b[01;31m\x1b[Kresized_frame\x1b[m\x1b[K, cv::Size(new_width, new_height));\n'}
+[5.043392] (endofeed) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.064418] (-) TimerEvent: {}
+[5.167951] (-) TimerEvent: {}
+[5.270985] (-) TimerEvent: {}
+[5.373974] (-) TimerEvent: {}
+[5.477106] (-) TimerEvent: {}
+[5.580124] (-) TimerEvent: {}
+[5.683067] (-) TimerEvent: {}
+[5.796949] (-) TimerEvent: {}
+[5.900012] (-) TimerEvent: {}
+[6.003015] (-) TimerEvent: {}
+[6.105961] (-) TimerEvent: {}
+[6.208990] (-) TimerEvent: {}
+[6.312290] (-) TimerEvent: {}
+[6.425883] (-) TimerEvent: {}
+[6.528950] (-) TimerEvent: {}
+[6.632009] (-) TimerEvent: {}
+[6.745964] (-) TimerEvent: {}
+[6.848958] (-) TimerEvent: {}
+[6.896664] (endofeed) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_endo_cam.dir/build.make:76: CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o] Error 1\n'}
+[6.897003] (endofeed) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_endo_cam.dir/all] Error 2\n'}
+[6.897217] (endofeed) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.900111] (endofeed) CommandEnded: {'returncode': 2}
+[6.938461] (endofeed) JobEnded: {'identifier': 'endofeed', 'rc': 2}
+[6.951546] (-) TimerEvent: {}
+[6.952120] (-) EventReactorShutdown: {}

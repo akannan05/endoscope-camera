@@ -29,16 +29,20 @@ int main(int argc, char ** argv){
     if(!cap.isOpened())
         return 1;
 
-    cv::Mat frame;
+    cv::Mat frame, resized_frame;
     std_msgs::msg::Header hdr;
     sensor_msgs::msg::Image::SharedPtr msg;
 
-    rclcpp::WallRate loop_rate(5);
+    int new_width = 640;
+    int new_height = 640; //resize image 
+
+    rclcpp::WallRate loop_rate(20);
     while(rclcpp::ok()){
         cap >> frame;
 
         if(!frame.empty()){
-            msg = cv_bridge::CvImage(hdr, "bgr8", frame).toImageMsg();
+            cv::resize(frame, resized_frame, cv::Size(new_width, new_height));
+            msg = cv_bridge::CvImage(hdr, "bgr8", resized_frame).toImageMsg();
             pub.publish(msg);
             cv::waitKey(1);
         }
