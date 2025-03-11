@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/infer/infer.egg-info
+writing ../../build/infer/infer.egg-info/PKG-INFO
+writing dependency_links to ../../build/infer/infer.egg-info/dependency_links.txt
+writing entry points to ../../build/infer/infer.egg-info/entry_points.txt
+writing requirements to ../../build/infer/infer.egg-info/requires.txt
+writing top-level names to ../../build/infer/infer.egg-info/top_level.txt
+writing manifest file '../../build/infer/infer.egg-info/SOURCES.txt'
+reading manifest file '../../build/infer/infer.egg-info/SOURCES.txt'
+writing manifest file '../../build/infer/infer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer
+copying infer/polyp_inference.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer
+copying infer/__init__.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer
+running install
+running install_lib
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer
+copying /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer/polyp_inference.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer
+copying /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer/__init__.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer
+byte-compiling /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer/polyp_inference.py to polyp_inference.cpython-312.pyc
+byte-compiling /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index
+creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index/packages
+copying resource/infer -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index/packages
+copying package.xml -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/infer
+running install_egg_info
+Copying ../../build/infer/infer.egg-info to /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing detector script to /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/infer
+writing list of installed files to '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/install.log'

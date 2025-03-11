@@ -1,0 +1,21 @@
+[0.042s] Invoking command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed -- -j1 -l1
+[0.287s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.085s] Traceback (most recent call last):
+[4.085s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[4.085s]     from ament_package.templates import get_environment_hook_template_path
+[4.085s] ModuleNotFoundError: No module named 'ament_package'
+[4.139s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[4.139s]   execute_process(/usr/bin/python3
+[4.140s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[4.140s]   /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed/ament_cmake_package_templates/templates.cmake)
+[4.140s]   returned error code 1
+[4.140s] Call Stack (most recent call first):
+[4.140s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[4.140s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[4.140s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[4.140s]   CMakeLists.txt:9 (find_package)
+[4.140s] 
+[4.140s] [0m
+[4.142s] -- Configuring incomplete, errors occurred!
+[4.182s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[4.201s] Invoked command in '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed -- -j1 -l1

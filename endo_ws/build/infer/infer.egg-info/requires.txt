@@ -1,0 +1,4 @@
+rclpy
+rosnumpy
+setuptools
+ultralytics

@@ -1,49 +1,61 @@
+#!/usr/bin/env python3
+
 import argparse
 import cv2
 import torch
 import os
+import numpy as np
+import math  # Import math for rounding confidence values
 
 from ultralytics import YOLO
 
-def load_model(model_path):
-    model = YOLO(model_path)
-    return model
+# Load YOLO model
+model = YOLO("best.pt")
 
-def detect_objects(model, img_path):
-    img = cv2.imread(img_path)
-    results = model(img)
-    return results
+# Test inference on a dummy image
+dummy_frame = cv2.imread('dummy.png')
+if dummy_frame is not None:
+    model(dummy_frame)
 
-def save_output(results, output_path, img):
-    for detection in results:
-        boxes = detection.boxes
-        for box in boxes:
-            x1, y1, x2, y2 = map(int, box.xyxy[0].tolist())
-            cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-
-    cv2.imwrite(output_path, img)
-
-
-def main():
-    parser = argparse.ArgumentParser(description="Polyp Detect CLI")
-    parser.add_argument("image_path", type=str, help="path to input image")
-    args = parser.parse_args()
-
-    model_path = "best.pt"
-    if not os.path.exists(model_path):
-        raise FileNotFoundError(f"check the model path, path not found: {model_path}")
-    model = load_model(model_path)
-
-    img = cv2.imread(args.image_path)
+def infer(file):
+    img = cv2.imread(file)
     if img is None:
-        raise FileNotFoundError(f"check the image path, path not found: {image_path}")
-    results = detect_objects(model, args.image_path)
+        print(f"Error: Unable to read image {file}")
+        return
+    
+    img_name = os.path.splitext(file)[0]
+    
+    # Run YOLO inference
+    results = model(img, verbose=False)
+    
+    # Process the results
+    for result in results:
+        boxes = result.boxes
+        
+        for box in boxes:
+            x1, y1, x2, y2 = box.xyxy[0].tolist()  # Convert tensor to list
+            x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
 
-    output_image_name = "output_image_result.jpg"
-    output_image_path = os.path.join(os.getcwd(), output_image_name)
-    save_output(results, output_image_path, img)
+            # Draw bounding box
+            cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
 
-    print(f"Successfully ran model, output saved at: {output_image_path}")
+            # Extract confidence score
+            conf = round(float(box.conf[0]) * 100) / 100
+            print(f"Confidence: {conf}")
 
-if __name__ == "__main__":
-    main()
+    # Save output image
+    output_path = f"{img_name}_res.jpg"
+    cv2.imwrite(output_path, img)
+    print(f"Processed image saved as {output_path}")
+
+# Ensure directory exists
+image_dir = 'imgs/'
+if not os.path.exists(image_dir):
+    print(f"Error: Directory '{image_dir}' does not exist.")
+else:
+    # Loop through images in directory
+    for file in os.listdir(image_dir):
+        file_path = os.path.join(image_dir, file)
+        if os.path.isfile(file_path):
+            infer(file_path)
+

@@ -1,0 +1,2 @@
+[console_scripts]
+detector = infer.polyp_inference:main

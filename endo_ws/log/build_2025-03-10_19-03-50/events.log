@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.013009] (endofeed) JobQueued: {'identifier': 'endofeed', 'dependencies': OrderedDict()}
+[0.013065] (infer) JobQueued: {'identifier': 'infer', 'dependencies': OrderedDict()}
+[0.013083] (endofeed) JobStarted: {'identifier': 'endofeed'}
+[0.040278] (endofeed) JobProgress: {'identifier': 'endofeed', 'progress': 'cmake'}
+[0.041306] (endofeed) JobProgress: {'identifier': 'endofeed', 'progress': 'build'}
+[0.041778] (endofeed) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', '--', '-j1', '-l1'], 'cwd': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'akannan05', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '1980', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/akannan05/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/akannan05/.local/bin:/home/akannan05/.local/bin', 'SESSION_MANAGER': 'local/akannan05:@/tmp/.ICE-unix/1944,unix/akannan05:/tmp/.ICE-unix/1944', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe0f4ebf_5b20_4577_9271_091fc52d5270', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6RM022', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.085592] (endofeed) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.103014] (-) TimerEvent: {}
+[0.219986] (-) TimerEvent: {}
+[0.323927] (-) TimerEvent: {}
+[0.424266] (-) TimerEvent: {}
+[0.524810] (-) TimerEvent: {}
+[0.572185] (endofeed) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.628199] (-) TimerEvent: {}
+[0.672154] (endofeed) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.691608] (endofeed) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.721985] (endofeed) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.728882] (-) TimerEvent: {}
+[0.771154] (endofeed) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.829236] (-) TimerEvent: {}
+[0.941333] (-) TimerEvent: {}
+[1.042122] (-) TimerEvent: {}
+[1.080479] (endofeed) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.086247] (endofeed) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.144896] (-) TimerEvent: {}
+[1.192134] (endofeed) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.244988] (-) TimerEvent: {}
+[1.335610] (endofeed) StdoutLine: {'line': b'-- Found image_transport: 5.1.5 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[1.349098] (-) TimerEvent: {}
+[1.395756] (endofeed) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.453245] (-) TimerEvent: {}
+[1.542099] (endofeed) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.543747] (endofeed) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.543896] (endofeed) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/endofeed/include\n'}
+[1.543985] (endofeed) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.545409] (endofeed) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.545588] (endofeed) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.547930] (endofeed) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.549478] (endofeed) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.549601] (endofeed) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.550438] (endofeed) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.553518] (-) TimerEvent: {}
+[1.556483] (endofeed) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.610784] (endofeed) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.616297] (endofeed) StdoutLine: {'line': b'-- Build files have been written to: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed\n'}
+[1.654116] (-) TimerEvent: {}
+[1.712091] (endofeed) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o\x1b[0m\n'}
+[1.754343] (-) TimerEvent: {}
+[1.854610] (-) TimerEvent: {}
+[1.956605] (-) TimerEvent: {}
+[2.057156] (-) TimerEvent: {}
+[2.158542] (-) TimerEvent: {}
+[2.259014] (-) TimerEvent: {}
+[2.363210] (-) TimerEvent: {}
+[2.463699] (-) TimerEvent: {}
+[2.568242] (-) TimerEvent: {}
+[2.670107] (-) TimerEvent: {}
+[2.778093] (-) TimerEvent: {}
+[2.880922] (-) TimerEvent: {}
+[2.995987] (-) TimerEvent: {}
+[3.109545] (-) TimerEvent: {}
+[3.211389] (-) TimerEvent: {}
+[3.326893] (-) TimerEvent: {}
+[3.441438] (-) TimerEvent: {}
+[3.545897] (-) TimerEvent: {}
+[3.650229] (-) TimerEvent: {}
+[3.754952] (-) TimerEvent: {}
+[3.858400] (-) TimerEvent: {}
+[3.964425] (-) TimerEvent: {}
+[4.078909] (-) TimerEvent: {}
+[4.193549] (-) TimerEvent: {}
+[4.297937] (-) TimerEvent: {}
+[4.402898] (-) TimerEvent: {}
+[4.507927] (-) TimerEvent: {}
+[4.612362] (-) TimerEvent: {}
+[4.718970] (-) TimerEvent: {}
+[4.822890] (-) TimerEvent: {}
+[4.928006] (-) TimerEvent: {}
+[5.032274] (-) TimerEvent: {}
+[5.137885] (-) TimerEvent: {}
+[5.241985] (-) TimerEvent: {}
+[5.357413] (-) TimerEvent: {}
+[5.462275] (-) TimerEvent: {}
+[5.566985] (-) TimerEvent: {}
+[5.671986] (-) TimerEvent: {}
+[5.776290] (-) TimerEvent: {}
+[5.881901] (-) TimerEvent: {}
+[5.986882] (-) TimerEvent: {}
+[6.091897] (-) TimerEvent: {}
+[6.196925] (-) TimerEvent: {}
+[6.301503] (-) TimerEvent: {}
+[6.406257] (-) TimerEvent: {}
+[6.510914] (-) TimerEvent: {}
+[6.615443] (-) TimerEvent: {}
+[6.720916] (-) TimerEvent: {}
+[6.825114] (-) TimerEvent: {}
+[6.930638] (-) TimerEvent: {}
+[7.034420] (-) TimerEvent: {}
+[7.136225] (-) TimerEvent: {}
+[7.239222] (-) TimerEvent: {}
+[7.352120] (-) TimerEvent: {}
+[7.467309] (-) TimerEvent: {}
+[7.571895] (-) TimerEvent: {}
+[7.687918] (-) TimerEvent: {}
+[7.792882] (-) TimerEvent: {}
+[7.895910] (-) TimerEvent: {}
+[7.999938] (-) TimerEvent: {}
+[8.102834] (-) TimerEvent: {}
+[8.206244] (-) TimerEvent: {}
+[8.325334] (-) TimerEvent: {}
+[8.432937] (-) TimerEvent: {}
+[8.536092] (-) TimerEvent: {}
+[8.634695] (endofeed) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_endo_cam\x1b[0m\n'}
+[8.636338] (-) TimerEvent: {}
+[8.736773] (-) TimerEvent: {}
+[8.837218] (-) TimerEvent: {}
+[8.937892] (-) TimerEvent: {}
+[9.038497] (-) TimerEvent: {}
+[9.141063] (-) TimerEvent: {}
+[9.244142] (-) TimerEvent: {}
+[9.344461] (-) TimerEvent: {}
+[9.451294] (-) TimerEvent: {}
+[9.558313] (-) TimerEvent: {}
+[9.664053] (-) TimerEvent: {}
+[9.790062] (-) TimerEvent: {}
+[9.894938] (-) TimerEvent: {}
+[9.947584] (endofeed) StdoutLine: {'line': b'[100%] Built target publisher_endo_cam\n'}
+[9.958364] (endofeed) CommandEnded: {'returncode': 0}
+[9.958845] (endofeed) JobProgress: {'identifier': 'endofeed', 'progress': 'install'}
+[9.969043] (endofeed) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed'], 'cwd': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'akannan05', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '1980', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/akannan05/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/akannan05/.local/bin:/home/akannan05/.local/bin', 'SESSION_MANAGER': 'local/akannan05:@/tmp/.ICE-unix/1944,unix/akannan05:/tmp/.ICE-unix/1944', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe0f4ebf_5b20_4577_9271_091fc52d5270', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6RM022', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.977932] (endofeed) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.982591] (endofeed) StdoutLine: {'line': b'-- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam\n'}
+[9.983370] (endofeed) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam" to ""\n'}
+[9.983541] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed\n'}
+[9.983664] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed/endofeed\n'}
+[9.984636] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/package_run_dependencies/endofeed\n'}
+[9.985578] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/parent_prefix_path/endofeed\n'}
+[9.985738] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.sh\n'}
+[9.985868] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.dsv\n'}
+[9.985981] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.sh\n'}
+[9.986125] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.dsv\n'}
+[9.986238] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.bash\n'}
+[9.986339] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.sh\n'}
+[9.986440] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.zsh\n'}
+[9.986540] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.dsv\n'}
+[9.986944] (endofeed) StdoutLine: {'line': b'-- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.dsv\n'}
+[9.987533] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/packages/endofeed\n'}
+[9.987684] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.987812] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.987936] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig.cmake\n'}
+[9.988899] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig-version.cmake\n'}
+[9.988968] (endofeed) StdoutLine: {'line': b'-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.xml\n'}
+[9.989955] (endofeed) CommandEnded: {'returncode': 0}
+[9.998921] (-) TimerEvent: {}
+[10.029542] (endofeed) JobEnded: {'identifier': 'endofeed', 'rc': 0}
+[10.034352] (infer) JobStarted: {'identifier': 'infer'}
+[10.103914] (-) TimerEvent: {}
+[10.208863] (-) TimerEvent: {}
+[10.313363] (-) TimerEvent: {}
+[10.417878] (-) TimerEvent: {}
+[10.518236] (-) TimerEvent: {}
+[10.619782] (-) TimerEvent: {}
+[10.720506] (-) TimerEvent: {}
+[10.820703] (-) TimerEvent: {}
+[10.921251] (-) TimerEvent: {}
+[11.021658] (-) TimerEvent: {}
+[11.122091] (-) TimerEvent: {}
+[11.229131] (-) TimerEvent: {}
+[11.320449] (infer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/infer', 'build', '--build-base', '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build', 'install', '--record', '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/infer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'akannan05', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akannan05', 'OLDPWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '1980', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akannan05', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akannan05', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/akannan05/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/akannan05/.local/bin:/home/akannan05/.local/bin', 'SESSION_MANAGER': 'local/akannan05:@/tmp/.ICE-unix/1944,unix/akannan05:/tmp/.ICE-unix/1944', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe0f4ebf_5b20_4577_9271_091fc52d5270', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6RM022', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.336887] (-) TimerEvent: {}
+[11.439904] (-) TimerEvent: {}
+[11.553277] (-) TimerEvent: {}
+[11.581964] (infer) StdoutLine: {'line': b'running egg_info\n'}
+[11.582504] (infer) StdoutLine: {'line': b'creating ../../build/infer/infer.egg-info\n'}
+[11.595775] (infer) StdoutLine: {'line': b'writing ../../build/infer/infer.egg-info/PKG-INFO\n'}
+[11.596122] (infer) StdoutLine: {'line': b'writing dependency_links to ../../build/infer/infer.egg-info/dependency_links.txt\n'}
+[11.596350] (infer) StdoutLine: {'line': b'writing entry points to ../../build/infer/infer.egg-info/entry_points.txt\n'}
+[11.596538] (infer) StdoutLine: {'line': b'writing requirements to ../../build/infer/infer.egg-info/requires.txt\n'}
+[11.596683] (infer) StdoutLine: {'line': b'writing top-level names to ../../build/infer/infer.egg-info/top_level.txt\n'}
+[11.596843] (infer) StdoutLine: {'line': b"writing manifest file '../../build/infer/infer.egg-info/SOURCES.txt'\n"}
+[11.620617] (infer) StdoutLine: {'line': b"reading manifest file '../../build/infer/infer.egg-info/SOURCES.txt'\n"}
+[11.622593] (infer) StdoutLine: {'line': b"writing manifest file '../../build/infer/infer.egg-info/SOURCES.txt'\n"}
+[11.622768] (infer) StdoutLine: {'line': b'running build\n'}
+[11.622892] (infer) StdoutLine: {'line': b'running build_py\n'}
+[11.623101] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build\n'}
+[11.623249] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib\n'}
+[11.623379] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer\n'}
+[11.623530] (infer) StdoutLine: {'line': b'copying infer/polyp_inference.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer\n'}
+[11.623720] (infer) StdoutLine: {'line': b'copying infer/__init__.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer\n'}
+[11.624149] (infer) StdoutLine: {'line': b'running install\n'}
+[11.628629] (infer) StdoutLine: {'line': b'running install_lib\n'}
+[11.640758] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer\n'}
+[11.641069] (infer) StdoutLine: {'line': b'copying /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer/polyp_inference.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer\n'}
+[11.641283] (infer) StdoutLine: {'line': b'copying /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/build/lib/infer/__init__.py -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer\n'}
+[11.641773] (infer) StdoutLine: {'line': b'byte-compiling /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer/polyp_inference.py to polyp_inference.cpython-312.pyc\n'}
+[11.642355] (infer) StdoutLine: {'line': b'byte-compiling /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer/__init__.py to __init__.cpython-312.pyc\n'}
+[11.642631] (infer) StdoutLine: {'line': b'running install_data\n'}
+[11.642810] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index\n'}
+[11.642954] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index\n'}
+[11.643080] (infer) StdoutLine: {'line': b'creating /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index/packages\n'}
+[11.643297] (infer) StdoutLine: {'line': b'copying resource/infer -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/ament_index/resource_index/packages\n'}
+[11.643377] (infer) StdoutLine: {'line': b'copying package.xml -> /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/share/infer\n'}
+[11.645860] (infer) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.656465] (-) TimerEvent: {}
+[11.669212] (infer) StdoutLine: {'line': b'Copying ../../build/infer/infer.egg-info to /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/python3.12/site-packages/infer-0.0.0-py3.12.egg-info\n'}
+[11.669383] (infer) StdoutLine: {'line': b'running install_scripts\n'}
+[11.759966] (-) TimerEvent: {}
+[11.782231] (infer) StdoutLine: {'line': b'Installing detector script to /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/infer/lib/infer\n'}
+[11.782851] (infer) StdoutLine: {'line': b"writing list of installed files to '/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/infer/install.log'\n"}
+[11.808763] (infer) CommandEnded: {'returncode': 0}
+[11.813456] (infer) JobEnded: {'identifier': 'infer', 'rc': 0}
+[11.821911] (-) EventReactorShutdown: {}

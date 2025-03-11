@@ -1,0 +1,4 @@
+source;share/infer/hook/pythonpath.dsv
+source;share/infer/hook/pythonpath.sh
+source;share/infer/hook/ament_prefix_path.dsv
+source;share/infer/hook/ament_prefix_path.sh

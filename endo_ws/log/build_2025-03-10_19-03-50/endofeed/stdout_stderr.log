@@ -1,0 +1,49 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found image_transport: 5.1.5 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/src/endofeed/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/build/endofeed
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_endo_cam.dir/src/publisher_endo_cam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher_endo_cam[0m
+[100%] Built target publisher_endo_cam
+-- Install configuration: ""
+-- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam
+-- Set non-toolchain portion of runtime path of "/home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/lib/endofeed/publisher_endo_cam" to ""
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/include/endofeed/endofeed
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/package_run_dependencies/endofeed
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/parent_prefix_path/endofeed
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.sh
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.sh
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/environment/path.dsv
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.bash
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.sh
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.zsh
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/local_setup.dsv
+-- Installing: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.dsv
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/ament_index/resource_index/packages/endofeed
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig.cmake
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/cmake/endofeedConfig-version.cmake
+-- Up-to-date: /home/akannan05/Desktop/endoscope/endoscope-camera/endo_ws/install/endofeed/share/endofeed/package.xml
